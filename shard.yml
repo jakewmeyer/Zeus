@@ -1,0 +1,13 @@
+name: zeus
+version: 0.1.0
+
+authors:
+  - Jake Meyer <jakewmeyer@gmail.com>
+
+targets:
+  zeus:
+    main: src/zeus.cr
+
+crystal: 0.23.1
+
+license: MIT
