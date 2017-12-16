@@ -1,10 +1,15 @@
 require "./zeus/*"
+require "./names"
 require "http/client"
 
 module Zeus
   def self.gitignore(langs)
     os = get_os
-    response = HTTP::Client.get "https://www.gitignore.io/api/#{os},#{langs}"
+    url = "https://www.gitignore.io/api/#{os}"
+    langs.each do |n|
+      url += ",#{n}"
+    end
+    response = HTTP::Client.get(url)
     puts response.body
   end
 
@@ -32,4 +37,6 @@ module Zeus
   end
 end
 
-Zeus.gitignore("crystal")
+extensions = Zeus.extensions
+langs = Names.get_names(extensions)
+Zeus.gitignore(langs)
