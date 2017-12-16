@@ -1,9 +1,8 @@
 require "./spec_helper"
 
 describe Zeus do
-  # TODO: Write tests
-
-  it "works" do
-    false.should eq(true)
+  describe "#extensions" do
+    it "Returns all file extensions for current and all subfolders" do
+    end
   end
 end
