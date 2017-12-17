@@ -21,7 +21,7 @@ module Zeus
     extensions = files.reject do |n|
       n.empty? || /.git/.match(n) || /.sample/.match(n)
     end
-    return extensions
+    return extensions.uniq
   end
 
   def self.get_os
