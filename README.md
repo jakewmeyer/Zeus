@@ -10,13 +10,24 @@
 </div>
 
 ## Install / Setup
-
+### Build from Source
+* Make sure you have the lastest version of [crystal](https://crystal-lang.org/) installed
+* Clone or download the repo & cd into repo
+```bash
+shards build --release
+```
+* Freshly built binary placed in the `bin` folder
 
 ## Usage
-
 ### Overwrite existing .gitignore file
 ```bash
-zeus > .gitignore
+zeus  > .gitignore
+```
+```bash
+zeus crystal > .gitignore
+```
+```bash
+zeus crystal ruby python > .gitignore
 ```
 
 ### Append existing .gitignore file
