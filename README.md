@@ -11,7 +11,8 @@
 
 ## Purpose
 * This was written to solve a problem I had with copying and pasting from OS and Language gitignore sources
-* The script automatically adds the correct OS .gitignore plus any number of languages you specify, all sent to STDOUT
+* The script automatically adds the correct OS .gitignore plus any number of languages you specify, all sent to STDOUT for easy redirection
+* Uses the API provided by [gitignore.io](https://www.gitignore.io/)
 
 ## Install / Setup
 ### Build from Source
