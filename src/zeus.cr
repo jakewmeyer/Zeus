@@ -4,8 +4,8 @@ require "http/client"
 def gitignore(langs)
   os = get_os
   url = "https://www.gitignore.io/api/#{os}"
-  langs.each do |n|
-    url += ",#{n}"
+  langs.each do |lang|
+    url += ",#{lang}"
   end
   response = HTTP::Client.get(url)
   puts response.body
