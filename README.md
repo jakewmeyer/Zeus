@@ -18,29 +18,28 @@
 ### Build from Source
 * Make sure you have the lastest version of [crystal](https://crystal-lang.org/) installed
 ```bash
-git clone https://github.com/jakewmeyer/Zeus.git && cd Zeus
+$ git clone https://github.com/jakewmeyer/Zeus.git && cd zeus
 ```
 ```bash
-shards build --release
+$ crystal build src/zeus.cr --release
 ```
 ```bash
-./bin/zeus
+$ ./zeus
 ```
-* Freshly built binary placed in the `bin` folder
 
 ## Usage
 ### Overwrite existing .gitignore file
 ```bash
-zeus  > .gitignore
+$ zeus > .gitignore
 ```
 ```bash
-zeus crystal > .gitignore
+$ zeus crystal > .gitignore
 ```
 ```bash
-zeus crystal ruby python > .gitignore
+$ zeus crystal ruby python > .gitignore
 ```
 
 ### Append existing .gitignore file
 ```bash
-zeus >> .gitignore
+$ zeus >> .gitignore
 ```
