@@ -1,8 +1,7 @@
 require "./spec_helper"
 
-describe Zeus do
-  describe "#extensions" do
-    it "Returns all file extensions for current and all subfolders" do
-    end
+describe "#get_os" do
+  it "returns the correct os for the computer" do
+    get_os.should be_a(String)
   end
 end
