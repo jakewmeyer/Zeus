@@ -18,6 +18,9 @@ git clone https://github.com/jakewmeyer/Zeus.git && cd Zeus
 ```bash
 shards build --release
 ```
+```bash
+./bin/zeus
+```
 * Freshly built binary placed in the `bin` folder
 
 ## Usage
