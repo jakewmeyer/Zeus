@@ -1,9 +1,12 @@
-Overwrite existing .gitignore file
+
+## Usage
+
+### Overwrite existing .gitignore file
 ```bash
 zeus > .gitignore
 ```
 
-Append existing .gitignore file
+### Append existing .gitignore file
 ```bash
 zeus >> .gitignore
 ```
