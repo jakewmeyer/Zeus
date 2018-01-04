@@ -11,10 +11,6 @@
 
 ## Install / Setup
 
-**MacOS**
-```bash
-brew install jakewmeyer/Geo/geo
-```
 
 ## Usage
 
