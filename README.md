@@ -18,6 +18,11 @@ shards build --release
 ```
 * Freshly built binary placed in the `bin` folder
 
+### MacOS Install
+```bash
+brew install jakewmeyer/zeus
+```
+
 ## Usage
 ### Overwrite existing .gitignore file
 ```bash
