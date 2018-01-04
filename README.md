@@ -9,6 +9,10 @@
 
 </div>
 
+## Purpose
+* This was written to solve a problem I had with copying and pasting from OS and Language gitignore sources
+* The script automatically adds the correct OS .gitignore plus any number of languages you specify, all sent to STDOUT
+
 ## Install / Setup
 ### Build from Source
 * Make sure you have the lastest version of [crystal](https://crystal-lang.org/) installed
