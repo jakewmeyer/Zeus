@@ -12,7 +12,9 @@
 ## Install / Setup
 ### Build from Source
 * Make sure you have the lastest version of [crystal](https://crystal-lang.org/) installed
-* Clone or download the repo & cd into repo
+```bash
+git clone https://github.com/jakewmeyer/Zeus.git && cd Zeus
+```
 ```bash
 shards build --release
 ```
