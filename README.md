@@ -15,6 +15,7 @@
 * Uses the API provided by [gitignore.io](https://www.gitignore.io/)
 
 ## Install / Setup
+
 ### Build from Source
 * Make sure you have the lastest version of [crystal](https://crystal-lang.org/) installed
 ```bash
